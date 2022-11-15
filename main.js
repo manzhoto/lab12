@@ -92,16 +92,33 @@ ul.appendChild(li);
 
 li = document.createElement("li");
 li.setAttribute('class','item');
-li.style.color = "purple";
-li.innerHTML = "REPEAT."
+li.style.color = "green";
+li.innerHTML = "Create a new HTML file, called index.html, which has only one <h1> tag with "Hello, World!" message (1 point)."
 ul.appendChild(li);
 
 li = document.createElement("li");
 li.setAttribute('class','item');
 li.style.color = "purple";
-li.innerHTML = "REPEAT."
+li.innerHTML = "Create a new JavaScript file, called main.js, which must contain your program (assignment) described above (1 point)."
 ul.appendChild(li);
 
+li = document.createElement("li");
+li.setAttribute('class','item');
+li.style.color = "green";
+li.innerHTML = "Link this main.js file to your index.html file (Note: place your script at the end of the body section)."
+ul.appendChild(li);
+
+li = document.createElement("li");
+li.setAttribute('class','item');
+li.style.color = "purple";
+li.innerHTML = "Write a JavaScript program in main.js to make your index.html look identical to this HTML file (5 points)."
+ul.appendChild(li);
+
+li = document.createElement("li");
+li.setAttribute('class','item');
+li.style.color = "green";
+li.innerHTML = "After you finish your work, submit it to the Github (2 points)."
+ul.appendChild(li);
 
 
 document.body.appendChild(ul);
